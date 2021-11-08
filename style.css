@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  
+  background: transparent;
+  
+  font-family: inherit;
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  display: block;
+
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button, a {
+  color: inherit;
+  
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+input,
+textarea,
+select {
+  border-radius: 0;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.firstPage {
+  background-color: #01ef89;
+}
+
+.secondPage{
+  background-color: #891111;
+}
+
+.thirdPage{
+  background-color: #ef11ee;
+}
+
+button {
+  position: absolute;
+  bottom: 40px;
+  right:  40px;
+  
+  width: 200px;
+  height: 60px;
+}
+
+.firstPage button {
+  background-color: #123456;
+}
+
+.secondPage button {
+  background-color: #987654;
+}
+
+.thirdPage button {
+  background-color: #feba23;
+}
+
+/*
+Richárd Atom10:02
+3 darab <section>
+Minden <section> 1 képernyő magas legyen
+
+mindegyiknek másmilyen színe legyen, de a szín hexadecimális értékben legyen megadva
+
+Richárd Atom10:03
+mindegyik jobb alsó sarkában (a sarok ponttól  40px-re vízszintes és függőleges tengelyen) legyen egy gomb, ami 200px széles és 60px magas
+mindegyik gomb eltérő színű legyen a szín hexadecimális értékben legyen megadva
+
+az elkészült munkát github Pages-re kell elhelyezni
+*/
